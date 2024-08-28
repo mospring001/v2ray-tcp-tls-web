@@ -9,9 +9,9 @@ To run the script again once downloaded, just use the following command:
 ```
 bash ~/xwall.sh
 ```
-
-wget -P /root -N --no-check-certificate "https://raw.githubusercontent.com/mack-a/v2ray-agent/master/install.sh" && chmod 700 /root/install.sh && /root/install.sh
-
+```sh
+curl -O https://raw.githubusercontent.com/xxxbrian/trojan.sh/main/trojan.sh && chmod +x trojan.sh && ./trojan.sh
+```
 
 ## Features
 1. Higher offloading efficieny with xray-core frontend
