@@ -10,6 +10,9 @@ To run the script again once downloaded, just use the following command:
 bash ~/xwall.sh
 ```
 
+wget -P /root -N --no-check-certificate "https://raw.githubusercontent.com/mack-a/v2ray-agent/master/install.sh" && chmod 700 /root/install.sh && /root/install.sh
+
+
 ## Features
 1. Higher offloading efficieny with xray-core frontend
 2. Support Debian9+, Ubuntu 16+ and CentOS 7+ operation systems
